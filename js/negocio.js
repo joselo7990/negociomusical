@@ -8,7 +8,7 @@
 
  ];
  const carrito = [];
-
+ // Spread //
  function agregarGuitarra(index) {
      carrito.push({...producto[index] })
      actualizarContador();
