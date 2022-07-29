@@ -18,19 +18,23 @@
  function agregar0() {
      agregarGuitarra(0);
 
+     sweety0();
 
  }
 
  function agregar1() {
      agregarGuitarra(1);
+     sweety1();
  }
 
  function agregar2() {
      agregarGuitarra(2);
+     sweety2();
  }
 
  function agregar3() {
      agregarGuitarra(3);
+     sweety3();
  }
 
 
@@ -51,7 +55,7 @@
      });
  }
 
- function agregar0() {
+ function sweety0() {
      Swal.fire({
          title: 'Has agregado una guitarra Taylor!',
          icon: 'success',
@@ -59,7 +63,7 @@
      });
  }
 
- function agregar1() {
+ function sweety1() {
      Swal.fire({
          title: 'Has agregado una guitarra Fender!',
          icon: 'success',
@@ -67,7 +71,7 @@
      });
  }
 
- function agregar2() {
+ function sweety2() {
      Swal.fire({
          title: 'Has agregado una guitarra Gibson!',
          icon: 'success',
@@ -75,7 +79,7 @@
      });
  }
 
- function agregar3() {
+ function sweety3() {
      Swal.fire({
          title: 'Has agregado un bajo Fender!',
          icon: 'success',
