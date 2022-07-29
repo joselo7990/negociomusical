@@ -17,6 +17,8 @@
 
  function agregar0() {
      agregarGuitarra(0);
+
+
  }
 
  function agregar1() {
@@ -38,6 +40,47 @@
      console.log(carrito)
      localStorage.setItem("carrito", JSON.stringify(carrito))
 
+ }
+ // Sweet Alert //
+ function manejeElClick() {
+     Swal.fire({
+         title: 'Has terminado tu compra!',
+         text: 'Queres terminar tu compra?',
+         icon: 'success',
+         confirmButtonText: 'Aceptar',
+     });
+ }
+
+ function agregar0() {
+     Swal.fire({
+         title: 'Has agregado una guitarra Taylor!',
+         icon: 'success',
+         confirmButtonText: 'Aceptar',
+     });
+ }
+
+ function agregar1() {
+     Swal.fire({
+         title: 'Has agregado una guitarra Fender!',
+         icon: 'success',
+         confirmButtonText: 'Aceptar',
+     });
+ }
+
+ function agregar2() {
+     Swal.fire({
+         title: 'Has agregado una guitarra Gibson!',
+         icon: 'success',
+         confirmButtonText: 'Aceptar',
+     });
+ }
+
+ function agregar3() {
+     Swal.fire({
+         title: 'Has agregado un bajo Fender!',
+         icon: 'success',
+         confirmButtonText: 'Aceptar',
+     });
  }
 
  //Actualizar contador de compras//
