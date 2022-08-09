@@ -28,35 +28,39 @@
                         <a class="nav-link text-white" href="./pages/salida.html">Salida</a>
                     </li>
                 </ul>
+                <i class="ml-auto nav-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                  </svg> <span id="contador">0</span></i>
+                <button class="btn btn-primary" onclicK="comprarGuitarras(),manejeElClick()"> TERMINAR COMPRA</button>
 
             </div>
         </nav>
     </header>
+    <div class="container">
+        <div>
+            <h2>Te gustaria seguir comprando?</h2>
+            <label for="si">SI</label>
+            <input type="radio" name="consulta" id="si" value="Si">
+            <label for="band">NO</label>
+            <input type="radio" name="consulta" id="no" value="No">
+        </div>
 
-    <div class="">
-        <h2>Te gustaria seguir comprando?</h2>
-        <label for="si">SI</label>
-        <input type="radio" name="consulta" id="si" value="Si">
-        <label for="band">NO</label>
-        <input type="radio" name="consulta" id="no" value="No">
+
+        <h1>Termina tu Compra</h1>
+        <br />
+        <input id="input-nombre" type="text" placeholder="nombre" />
+        <br />
+        <input id="input-tel" type="text" placeholder="tel" />
+        <br />
+        <input id="input-email" type="email" placeholder="email" required>
+        <br />
+        <br />
+        <button class="btn btn-primary" id="btnPrincipal">Termina!</button>
+
     </div>
-
-
-    <h1>Termina tu Compra</h1>
-    <br />
-    <input id="input-nombre" type="text" placeholder="nombre" />
-    <br />
-    <input id="input-tel" type="text" placeholder="tel" />
-    <br />
-    <input id="input-email" type="email" placeholder="email" required>
-    <br />
-    <br />
-    <button id="btnPrincipal">Termina!</button>
-
-
     <br>
     <br>
-
+    </div>
     <br>
     <footer class="bg-primary text-center text-white">
 
@@ -65,7 +69,7 @@
             <section class="mb-4">
                 <!-- Facebook -->
                 <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i
-    ></a>
+    >   </a>
                 <!-- Instagram -->
                 <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i
     ></a>

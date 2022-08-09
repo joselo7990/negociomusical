@@ -1,0 +1,7 @@
+  [
+      { "nombre": "Taylor", "precio": 550, "imagen": "../imagenes/taylor1.jpg" },
+      { "nombre": "Fender", "precio": 600, "imagen": "../imagenes/stratocaster2.jpg" },
+      { "nombre": "Gibson", "precio": 650, "imagen": "../imagenes/explorer3.jpg" },
+      { "nombre": "Fender jazzbass", "precio": 700, "imagen": "../imagenes/jazzbass4.jpg" }
+
+  ]
